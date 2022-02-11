@@ -1,23 +1,11 @@
-# Refactor-Landing-Page
-Here is the screenshot of the Horiseon Main Page and its url. Bugs and fixes explantion will be at the very bottom.
+# Refactoring-Horiseon-Website-Update-1.0
+Here is the screenshot of the Horiseon Main Page and its link after the update. Bugs and fixes will be at the very bottom...
+Link:
+https://danchanyoungkim.github.io/Horiseon-Website-Refactoring/
 
-![alt text!] (file:///Users/dankim/Desktop/Homework/Refactor-Landing-Page/index.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="1423" alt="Screen Shot 2022-02-11 at 5 37 57 PM" src="https://user-images.githubusercontent.com/97200280/153683768-3b514a13-8430-4afb-8012-573580e01b2a.png">
+<img width="1426" alt="Screen Shot 2022-02-11 at 5 38 16 PM" src="https://user-images.githubusercontent.com/97200280/153683771-ddbe09f4-7a3b-4d65-bfbd-6f05a6a29f6e.png">
+<img width="1427" alt="Screen Shot 2022-02-11 at 5 38 27 PM" src="https://user-images.githubusercontent.com/97200280/153683791-d209569a-76ad-466c-8689-84300e3e9ea6.png">
 
 
 
