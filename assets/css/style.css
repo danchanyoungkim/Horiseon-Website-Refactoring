@@ -1,112 +1,80 @@
+/* Puts elements into boxes. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Website's background color */
 body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* Only the header up top will have these color, font properties. */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* Inline-block allows "header h1" within the "header" with "header ul li". */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Changes color for 'seo' within the 'Horiseon' */
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* These properties set the links within the "header" and gives its font/details. */
+header ul {
+    list-style-type: none;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 20px;     
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
+/* Helps coexist with header h1" */
+header ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; 
 }
 
+/* Gives the links the color and rid of underlines. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* All fonts under "p" with be 16px. */
 p {
     font-size: 16px;
 }
 
+/* Website's image between "header" and "main"; margin at bottom to give space between image and 
+"main". */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    background: center / cover url("../images/digital-marketing-meeting.jpg");
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {  
-    width: 70%;
+/* Helps "main" and "aside" fit side by side with both their widths equal to less than 100%; 
+The display property also imperative. */
+main {  
+    width: 77%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    /* Changed width from 20% to 25% to fit better */
-    width: 25%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-/* Changed class to "benefit-child" to consolidate all of the "benefits" section due 
-to similar properties. */
-.benefit-child {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-child h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-child img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Consolidated "Search Engine Optimization, Online Reputation Management,
-and Social Media Marketing into class "content-child" due to similar properties */
+/* Structures the boxes for search-engine-optimization, online-reputation-management, and 
+social-media-marketing. */
 .content-child {
     margin-bottom: 20px;
     padding: 50px;
@@ -116,22 +84,70 @@ and Social Media Marketing into class "content-child" due to similar properties 
     color: #ffffff;
 }
 
+/* Constricts the image within the "content-child". */
 .content-child img {
     max-height: 200px;
 }
 
+/* Formats the image to the left of the "content-child". */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Formats the image to the right of the "content-child". */
+.float-right {
+    float: right;
+    margin-left: 25px;  
+}
+
+/* Font and margin for the titles of the "content-child". */
 .content-child h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+/* Helps fit right next to "main" towards the right. Also sets the properties within the box as
+a whole. */
+aside {
+    margin-right: 20px;
+    padding: 50px;
+    clear: both;
+    float: right;
+    width: 19%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Color and margin for all within. */
+.benefit-child {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Margin and centered for title. */
+.benefit-child h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Formats the images within the center. */
+.benefit-child img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets the "footer" centered and seperated from other adjacent elements. */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* Sets font size for "footer". */
+footer h2 {
     font-size: 20px;
 }
